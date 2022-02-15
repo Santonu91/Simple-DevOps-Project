@@ -7,6 +7,7 @@
 
 1. Install docker and start docker services
    ```sh 
+   sudo su -
    yum install docker -y
    docker --version 
    
