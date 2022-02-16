@@ -71,3 +71,11 @@ Please follow below steps to install docker CE on CentoOS server instance. For R
    ```sh
    sudo docker run hello-world
    ```
+   
+#INSTALLING DOCKER IN UBUNTU
+ ```sh
+ 1.sudo su -   
+  ```
+ 2. apt-get update
+ 3. apt install docker.io
+  
