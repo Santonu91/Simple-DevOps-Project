@@ -1,0 +1,9 @@
+Failed to set locale, defaulting to C. --For amazonLinux ami
+Resolution--
+https://www.cyberciti.biz/faq/failed-to-set-locale-defaulting-to-c-warning-message-on-centoslinux/
+
+in Docker file FROM Centos
+error
+
+Root user 
+sudo su -
