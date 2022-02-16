@@ -78,14 +78,17 @@ Please follow below steps to install docker CE on CentoOS server instance. For R
   ```
  2. apt-get update
  3. apt install docker.io
+ 
 #CREATING TOMCAT CONTAINER
+ 
  vi Dockerfile
  ```sh
  FROM tomcat:latest
  RUN cp -R /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
  ```
  docker build -t mytomcat .
- ocker run -d --name tomcat-container -p 8081:8080 mytomcat
+ 
+ docker run -d --name tomcat-container -p 8081:8080 mytomcat
  
  
   
