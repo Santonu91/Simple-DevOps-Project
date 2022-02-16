@@ -4,6 +4,7 @@ https://www.cyberciti.biz/faq/failed-to-set-locale-defaulting-to-c-warning-messa
 
 in Docker file FROM Centos
 error
+Issue pulling Centos image
 
 Root user 
 sudo su -
